@@ -2,3 +2,112 @@ body {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
 }
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: "Oswald", sans-serif;
+}
+
+.container{
+  width:1200px;
+  margin:auto;
+}
+
+
+body{
+  margin:0;
+  font-family: "Oswald", sans-serif;
+  background:#fff;
+}
+
+/* center hero */
+.hero{
+  width:100%;
+  max-width:1440px;
+  margin:0 auto;
+}
+
+/* nav center fix */
+.navigation-bar{
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+  padding:24px 0;
+}
+
+/* menu align */
+.link{
+  margin-left:auto;
+}
+
+/* hero content center */
+.content{
+  margin-top:40px;
+}
+
+/* heading size fix */
+.turn-your-amazon-struggles-into-success-save-time-maximize-profits{
+  font-size:64px;
+  line-height:72px;
+  max-width:900px;
+}
+
+/* main button shadow */
+.button2{
+  box-shadow:0 6px 0 #000;
+}
+
+/* floating left card */
+.total-incomes-background{
+  left:120px;
+  top:320px;
+}
+
+/* floating right card */
+.review-container{
+  right:120px;
+  left:auto;
+  top:260px;
+}
+
+/* responsive */
+@media(max-width:1024px){
+  .navigation-bar{
+    padding:24px 40px;
+  }
+
+  .hero{
+    padding:0 40px 120px 40px;
+  }
+
+  .turn-your-amazon-struggles-into-success-save-time-maximize-profits{
+    font-size:48px;
+    line-height:56px;
+  }
+
+  .review-container,
+  .total-incomes-background{
+    display:none;
+  }
+}
+
+@media(max-width:600px){
+  .navigation-bar{
+    flex-direction:column;
+    gap:20px;
+  }
+
+  .link{
+    gap:20px;
+  }
+
+  .turn-your-amazon-struggles-into-success-save-time-maximize-profits{
+    font-size:34px;
+    line-height:40px;
+  }
+}

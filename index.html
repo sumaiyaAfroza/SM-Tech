@@ -3,26 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- css file -->
   <link rel="stylesheet" href="index.css">
-
-  <!-- google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-
-  <!-- tailwind -->
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
   <title>Document</title>
 </head>
 
 <body>
-  <header>
-    <h1 class="font-[Oswald] text-4xl">
-      Hello world! Tuu
-    </h1>
+  <header class="navbar">
+    <div class="container nav-wrapper">
+
+      <div class="logo">
+        <img src="logo.png" alt="logo">
+      </div>
+
+      <nav>
+        <ul class="menu">
+          <li>Services</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+
+      <button class="nav-btn">
+        Book a Free Consultation
+      </button>
+
+    </div>
+      <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="container hero-content">
+
+      <div class="badge">
+        Your Full-Service Amazon Partner
+      </div>
+
+      <h1>
+        Turn Your Amazon Struggles  
+        into Success—Save Time,  
+        <span>Maximize Profits!</span>
+      </h1>
+
+      <button class="hero-btn">
+        Book a Free Consultation
+      </button>
+
+      <!-- left floating card -->
+      <div class="card-left">
+        <p>Total Income</p>
+      </div>
+
+      <!-- right floating card -->
+      <div class="card-right">
+        <p>45K+ Users</p>
+      </div>
+
+    </div>
+  </section>
   </header>
 </body>
 </html>
