@@ -537,3 +537,123 @@ body{
   position: relative;
 }
 
+
+
+
+/* =======================social======================= */
+
+.social-proof {
+  background: #ffffff;
+  padding: 60px 120px 60px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+
+}
+.amazon-market-statistics-worldwide-2024 {
+  color: #151515;
+  text-align: center;
+  font-size: 24px;
+  line-height:  32px;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+
+}
+.social-proof2 {
+  display: flex;
+  flex-direction: row;
+  /* gap: 24px; */
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
+  max-width: 1296px;
+  position: relative;
+}
+.partners {
+  background: #ffffff;
+  border-radius: 16px;
+  border-style: solid;
+  border-color:  #ececec;
+  border-width: 1px;
+  padding: 32px 16px 32px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  height: 164px;
+}
+.statistic {
+  color:  #151515;
+  text-align: center;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  font-weight:  600;
+  position: relative;
+  align-self: stretch;
+}
+.label {
+  color:  #4f4d4d;
+  text-align: center;
+  font-size: 18px;
+  line-height:  28px;
+  letter-spacing:-0.02em;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.active-user {
+  background: #ffffff;
+  border-radius: 16px;
+  border-style: solid;
+  border-color:  #ececec;
+  border-width: 1px;
+  padding: 32px 16px 32px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  height: 164px;
+  position: relative;
+}
+.revenue {
+  background: #ffffff;
+  border-radius: 16px;
+  border-style: solid;
+  border-color:  #ececec;
+  border-width: 1px;
+  padding: 32px 16px 32px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  height: 164px;
+  position: relative;
+}
+.investment {
+  background: #ffffff;
+  border-radius: 16px;
+  border-style: solid;
+  border-color: #ececec;
+  border-width: 1px;
+  padding: 32px 16px 32px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  height: 164px;
+}
+
