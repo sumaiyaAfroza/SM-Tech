@@ -212,33 +212,28 @@ body{
   text-align: left;
 }
 .get-started-4-span {
-  color: var(--color-text-02, #151515);
+  color: #151515;
 }
 .get-started-4-span2 {
-  color: var(--color-primary-primary, #ffa500);
+  color: #ffa500;
 }
-.turn-your-amazon-struggles-into-success-save-time-maximize-profits {
+.banner-title {
   text-align: center;
-  font-family: var(
-    --text-heading-h1-font-family,
-    "Oswald-SemiBold",
-    sans-serif
-  );
-  font-size: var(--text-heading-h1-font-size, 72px);
-  line-height: var(--text-heading-h1-line-height, 80px);
-  letter-spacing: var(--text-heading-h1-letter-spacing, -0.02em);
-  font-weight: var(--text-heading-h1-font-weight, 600);
+  font-size: 72px;
+  line-height:  80px;
+  letter-spacing: -0.02em;
+  font-weight: 600;
   position: relative;
   align-self: stretch;
 }
-.turn-your-amazon-struggles-into-success-save-time-maximize-profits-span {
-  color: var(--color-text-02, #151515);
+.title-color-black {
+  color:  #151515;
 }
-.turn-your-amazon-struggles-into-success-save-time-maximize-profits-span2 {
-  color: var(--color-primary-primary, #ffa500);
+.title-color-yellow{
+  color:  #ffa500;
 }
 .button2 {
-  background: var(--color-primary-primary, #ffa500);
+  background: #ffa500;
   border-radius: 39px;
   border-style: solid;
   border-color: #000000;
@@ -261,10 +256,10 @@ body{
   position: static;
 }
 .total-incomes-background {
-  background: var(--color-bg-01, #ffffff);
+  background:  #ffffff;
   border-radius: 16px;
   border-style: solid;
-  border-color: var(--color-stroke-02, #ececec);
+  border-color:  #ececec;
   border-width: 1px;
   width: 227px;
   height: 177px;
@@ -276,17 +271,8 @@ body{
   transform: rotate(-16deg) scale(1, 1);
 }
 .total-incomes-text {
-  color: var(--color-text-02, #151515);
+  color:#151515;
   text-align: left;
-  font-family: var(
-    --text-button-large-font-family,
-    "Oswald-Medium",
-    sans-serif
-  );
-  font-size: var(--text-button-large-font-size, 16px);
-  line-height: var(--text-button-large-line-height, 18px);
-  letter-spacing: var(--text-button-large-letter-spacing, -0.02em);
-  font-weight: var(--text-button-large-font-weight, 500);
   position: absolute;
   left: 65.69px;
   top: 375.97px;
@@ -299,7 +285,7 @@ body{
   position: static;
 }
 .january-background {
-  background: var(--color-stroke-01, #f2f2f2);
+  background:  #f2f2f2;
   border-radius: 10px;
   width: 19px;
   height: 59px;
@@ -310,7 +296,7 @@ body{
   transform: rotate(-16deg) scale(1, 1);
 }
 .january-text {
-  color: var(--color-text-04, #666666);
+  color:  #666666;
   text-align: center;
   font-size: 8px;
   font-weight: 400;
@@ -326,7 +312,7 @@ body{
   position: static;
 }
 .february-background {
-  background: var(--color-stroke-01, #f2f2f2);
+  background:  #f2f2f2;
   border-radius: 10px;
   width: 19px;
   height: 80px;
@@ -337,9 +323,8 @@ body{
   transform: rotate(-16deg) scale(1, 1);
 }
 .february-text {
-  color: var(--color-text-04, #666666);
+  color: #666666;
   text-align: center;
-  font-family: "Oswald-Regular", sans-serif;
   font-size: 8px;
   font-weight: 400;
   position: absolute;
@@ -354,7 +339,7 @@ body{
   position: static;
 }
 .march-background {
-  background: var(--color-stroke-01, #f2f2f2);
+  background:  #f2f2f2;
   border-radius: 10px;
   width: 19px;
   height: 62px;
@@ -365,9 +350,8 @@ body{
   transform: rotate(-16deg) scale(1, 1);
 }
 .march-text {
-  color: var(--color-text-04, #666666);
+  color:  #666666;
   text-align: center;
-  font-family: "Oswald-Regular", sans-serif;
   font-size: 8px;
   font-weight: 400;
   position: absolute;
@@ -377,7 +361,7 @@ body{
   transform: rotate(-16deg) scale(1, 1);
 }
 .april-background {
-  background: var(--color-primary-primary, #ffa500);
+  background:  #ffa500;
   border-radius: 10px;
   width: 19px;
   height: 80px;
@@ -388,9 +372,8 @@ body{
   transform: rotate(-16deg) scale(1, 1);
 }
 .april-text {
-  color: var(--color-text-04, #666666);
+  color: #666666;
   text-align: center;
-  font-family: "Oswald-Regular", sans-serif;
   font-size: 8px;
   font-weight: 400;
   position: absolute;
@@ -405,7 +388,7 @@ body{
   position: static;
 }
 .may-background {
-  background: var(--color-stroke-01, #f2f2f2);
+  background: #f2f2f2;
   border-radius: 10px;
   width: 19px;
   height: 34px;
@@ -416,16 +399,13 @@ body{
   transform: rotate(-16deg) scale(1, 1);
 }
 .may-text {
-  color: var(--color-text-04, #666666);
+  color: #666666;
   text-align: center;
-  font-family: "Oswald-Regular", sans-serif;
   font-size: 8px;
   font-weight: 400;
   position: absolute;
   left: 240.22px;
   top: 462.2px;
-  transform-origin: 0 0;
-  transform: rotate(-16deg) scale(1, 1);
 }
 .month-container5 {
   width: 19px;
@@ -433,7 +413,7 @@ body{
   position: static;
 }
 .june-background {
-  background: var(--color-stroke-01, #f2f2f2);
+  background:#f2f2f2;
   border-radius: 10px;
   width: 19px;
   height: 90px;
@@ -446,7 +426,6 @@ body{
 .june-text {
   color: var(--color-text-04, #666666);
   text-align: center;
-  font-family: "Oswald-Regular", sans-serif;
   font-size: 8px;
   font-weight: 400;
   position: absolute;
@@ -540,7 +519,7 @@ body{
 
 
 
-/* =======================social======================= */
+/* social*/
 
 .social-proof {
   background: #ffffff;
@@ -565,7 +544,7 @@ body{
 .social-proof2 {
   display: flex;
   flex-direction: row;
-  /* gap: 24px; */
+  gap: 24px;
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -639,7 +618,7 @@ body{
   justify-content: flex-start;
   flex: 1;
   height: 164px;
-  position: relative;
+  
 }
 .investment {
   background: #ffffff;
@@ -657,3 +636,106 @@ body{
   height: 164px;
 }
 
+
+/* Our story section er css*/
+.story-section *{
+  box-sizing:border-box;
+}
+
+.story-section{
+  background:#fff;
+  padding:40px 120px 100px;
+  display:flex;
+  flex-direction:column;
+  gap:40px;
+  align-items:center;
+}
+
+.story-badge-text{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  align-items:center;
+  width:740px;
+}
+
+.story-badge{
+  display:flex;
+  gap:8px;
+  align-items:center;
+}
+
+.story-badge-img{
+  width:64px;
+  height:30px;
+  border:1px solid #ececec;
+  border-radius:8px;
+  object-fit:cover;
+}
+
+.story-badge-title{
+  font-size:16px;
+}
+
+.story-badge-dark{
+  color:#151515;
+}
+
+.story-badge-orange{
+  color:#ffa500;
+}
+
+.story-text{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  align-items:center;
+}
+
+.story-title{
+  text-align:center;
+  font-size:40px;
+  line-height:48px;
+  font-weight:600;
+}
+
+.story-title-dark{
+  color:#151515;
+}
+
+.story-title-orange{
+  color:#ffa500;
+}
+
+.story-desc{
+  text-align:center;
+  font-size:18px;
+  line-height:28px;
+  width:552px;
+}
+
+.story-desc-dark{
+  color:#4f4d4d;
+}
+
+.story-desc-orange{
+  color:#ffa500;
+}
+
+/* button */
+.story-btn{
+  background:#ffa500;
+  border-radius:39px;
+  border:0 solid #000;
+  border-width:0 3px 3px 0;
+  padding:16px 32px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.story-btn-text{
+  color:#fff;
+  font-size:16px;
+  font-weight:500;
+}
