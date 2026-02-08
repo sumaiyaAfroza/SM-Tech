@@ -1,17 +1,9 @@
-body {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-}
-
 *{
   margin:0;
   padding:0;
   box-sizing:border-box;
 }
 
-body{
-  font-family: "Oswald", sans-serif;
-}
 
 .container{
   width:1200px;
@@ -112,13 +104,8 @@ body{
   }
 }
 
-
-
 /* ================ */
-.hero,
-.hero * {
-  box-sizing: border-box;
-}
+
 .hero {
   background: linear-gradient(
       180deg,
