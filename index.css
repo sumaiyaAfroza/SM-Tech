@@ -1606,11 +1606,6 @@ body{
   position: relative;
 }
 
-
-
-
-
-
 /* footer */
 .footer * {
   box-sizing: border-box;
@@ -1970,7 +1965,7 @@ body{
     line-height: 50px;
   }
   
-  /* Contact Us */
+
   .contact-us{
     padding: 80px 40px;
   }
