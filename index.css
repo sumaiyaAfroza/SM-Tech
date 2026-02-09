@@ -761,7 +761,7 @@ body{
   display:flex;
   flex-direction:column;
   gap:40px;
-  width:560px;
+  width:50%;
 }
 
 .why-tag-title{
@@ -792,6 +792,7 @@ body{
 
 .why-text{
   display:flex;
+ 
   flex-direction:column;
   gap:16px;
 }
@@ -821,6 +822,7 @@ body{
   padding:16px 32px;
   display:flex;
   justify-content:center;
+  width: 250px;
 }
 
 .why-btn-text{
@@ -1463,7 +1465,6 @@ body{
   color:  #ffa500;
 }
 
-/* renamed */
 .help-text {
   display: flex;
   flex-direction: column;
@@ -1488,7 +1489,7 @@ body{
   color: #ffa500;
 }
 
-/* renamed */
+
 .help-body-text {
   color: #151515;
   text-align: center;
@@ -1499,15 +1500,12 @@ body{
   align-self: stretch;
 }
 
-/* renamed */
 .help-card {
-  display: flex;
-  flex-direction: row;
+  display: grid;
   gap: 24px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  align-content: flex-start;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+
  
 }
 
@@ -1522,9 +1520,7 @@ body{
   gap: 11px;
   align-items: flex-start;
   justify-content: flex-start;
- 
   width: 384px;
- 
 }
 
 .help-body-text2 {
@@ -1549,7 +1545,7 @@ body{
 }
 
 .help-body-text3 {
-  color: var(--color-text-03, #4f4d4d);
+  color:  #4f4d4d;
   text-align: left;
   position: relative;
   align-self: stretch;
@@ -1671,10 +1667,10 @@ body{
 
 /* cards */
 .needs-card-wrap {
-  display: flex;
+  display: grid;
   gap: 24px;
-  flex-wrap: wrap;
-  align-self: stretch;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,auto );
 }
 
 .needs-card {
