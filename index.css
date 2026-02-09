@@ -1212,7 +1212,7 @@ body{
   box-sizing: border-box;
 }
 .our-approach {
-  background: var(--color-bg-02, #151515);
+  background:  #151515;
   padding: 100px 120px 100px 120px;
   display: flex;
   flex-direction: row;
@@ -1222,7 +1222,7 @@ body{
   position: relative;
 }
 .image-container {
- 
+ flex:1;
   width: 560px;
   height: 490px;
   position: static;
@@ -1408,33 +1408,26 @@ body{
 
 /* =======================growth business */
 
-
-.help-amazon,
 .help-amazon * {
   box-sizing: border-box;
 }
 .help-amazon {
-  background: var(--color-bg-01, #ffffff);
+  background:#ffffff;
   padding: 100px 120px 100px 120px;
   display: flex;
   flex-direction: column;
   gap: 64px;
   align-items: center;
   justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
 }
 
-/* renamed */
+
 .help-tag-title {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  align-self: stretch;
-  flex-shrink: 0;
   height: 238px;
-  position: relative;
 }
 
 .help-badge {
@@ -1443,16 +1436,13 @@ body{
   gap: 8px;
   align-items: center;
   justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
 }
 
 .image-7 {
   border-radius: 8px;
   border-style: solid;
-  border-color: var(--color-stroke-02, #ececec);
+  border-color:  #ececec;
   border-width: 1px;
-  flex-shrink: 0;
   width: 64px;
   height: 30px;
   position: relative;
@@ -1462,19 +1452,15 @@ body{
 
 .help-get-started {
   text-align: left;
-  font-family: var(--text-paragraph-p2-font-family,"Oswald-Regular",sans-serif);
-  font-size: var(--text-paragraph-p2-font-size, 16px);
-  line-height: var(--text-paragraph-p2-line-height, 26px);
-  letter-spacing: var(--text-paragraph-p2-letter-spacing, -0.02em);
-  font-weight: var(--text-paragraph-p2-font-weight, 400);
-  position: relative;
+  font-size:  16px;
+  font-weight:  400;
 }
 
 .get-started-span {
-  color: var(--color-text-02, #151515);
+  color: #151515;
 }
 .get-started-span2 {
-  color: var(--color-primary-primary, #ffa500);
+  color:  #ffa500;
 }
 
 /* renamed */
@@ -1485,37 +1471,29 @@ body{
   align-items: flex-start;
   justify-content: flex-start;
   align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
 }
 
 .help-heading {
   text-align: center;
-  font-family: var(--text-heading-h2-font-family,"Oswald-SemiBold",sans-serif);
-  font-size: var(--text-heading-h2-font-size, 56px);
-  line-height: var(--text-heading-h2-line-height, 64px);
-  letter-spacing: var(--text-heading-h2-letter-spacing, -0.02em);
-  font-weight: var(--text-heading-h2-font-weight, 600);
+  font-size: 56px;
+  font-weight:  600;
   position: relative;
   align-self: stretch;
 }
 
 .heading-span {
-  color: var(--color-text-02, #151515);
+  color: #151515;
 }
 .heading-span2 {
-  color: var(--color-primary-primary, #ffa500);
+  color: #ffa500;
 }
 
 /* renamed */
 .help-body-text {
-  color: var(--color-text-02, #151515);
+  color: #151515;
   text-align: center;
-  font-family: var(--text-paragraph-p1-font-family,"Oswald-Regular",sans-serif);
-  font-size: var(--text-paragraph-p1-font-size, 18px);
-  line-height: var(--text-paragraph-p1-line-height, 28px);
-  letter-spacing: var(--text-paragraph-p1-letter-spacing, -0.02em);
-  font-weight: var(--text-paragraph-p1-font-weight, 400);
+  font-size: 18px;
+  font-weight:  400;
   opacity: 0.8;
   position: relative;
   align-self: stretch;
@@ -1530,15 +1508,13 @@ body{
   justify-content: flex-start;
   flex-wrap: wrap;
   align-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
+ 
 }
 
 .help-card2 {
   border-radius: 16px;
   border-style: solid;
-  border-color: var(--color-stroke-02, #ececec);
+  border-color:  #ececec;
   border-width: 1px;
   padding: 24px;
   display: flex;
@@ -1546,19 +1522,16 @@ body{
   gap: 11px;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-shrink: 0;
+ 
   width: 384px;
-  position: relative;
+ 
 }
 
 .help-body-text2 {
-  color: var(--color-primary-primary, #ffa500);
+  color:  #ffa500;
   text-align: left;
-  font-family: var(--text-paragraph-p1-font-family,"Oswald-Regular",sans-serif);
-  font-size: var(--text-paragraph-p1-font-size, 18px);
-  line-height: var(--text-paragraph-p1-line-height, 28px);
-  letter-spacing: var(--text-paragraph-p1-letter-spacing, -0.02em);
-  font-weight: var(--text-paragraph-p1-font-weight, 400);
+  font-size: 18px;
+  font-weight:  400;
   position: relative;
   align-self: stretch;
 }
@@ -1566,13 +1539,11 @@ body{
 .help-line-8 {
   margin-top: -3px;
   border-style: solid;
-  border-color: var(--color-primary-primary, #ffa500);
+  border-color: #ffa500;
   border-width: 3px 0 0 0;
   opacity: 0.2;
-  flex-shrink: 0;
   width: 48px;
   height: 0px;
-  position: relative;
   transform-origin: 0 0;
   transform: rotate(90deg) scale(1, 1);
 }
@@ -1580,28 +1551,24 @@ body{
 .help-body-text3 {
   color: var(--color-text-03, #4f4d4d);
   text-align: left;
-  
   position: relative;
   align-self: stretch;
   margin-top:40px;
 }
 
 .help-body-text4 {
-  color: var(--color-text-03, #4f4d4d);
+  color:  #4f4d4d;
   text-align: left;
-  font-family: var(--text-paragraph-p1-font-family,"Oswald-Regular",sans-serif);
-  font-size: var(--text-paragraph-p1-font-size, 18px);
-  line-height: var(--text-paragraph-p1-line-height, 28px);
-  letter-spacing: var(--text-paragraph-p1-letter-spacing, -0.02em);
-  font-weight: var(--text-paragraph-p1-font-weight, 400);
+  font-size: 18px;
+  font-weight: 400;
   position: relative;
 }
 
 .help-button {
-  background: var(--color-primary-primary, #ffa500);
+  background:  #ffa500;
   border-radius: 39px;
   border-style: solid;
-  border-color: var(--color-text-02, #151515);
+  border-color:  #151515;
   border-width: 0px 3px 3px 0px;
   padding: 16px 32px 16px 32px;
   display: flex;
@@ -1609,17 +1576,15 @@ body{
   gap: 8px;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
-  position: relative;
+ 
+ 
 }
 
 .help-get-started2 {
-  color: var(--color-text-01, #ffffff);
+  color: #ffffff;
   text-align: center;
-  font-size: var(--text-button-large-font-size, 16px);
-  line-height: var(--text-button-large-line-height, 18px);
-  letter-spacing: var(--text-button-large-letter-spacing, -0.02em);
-  font-weight: var(--text-button-large-font-weight, 500);
+  font-size: 16px;
+  font-weight:  500;
   position: relative;
 }
 
@@ -1633,30 +1598,27 @@ body{
 
 
 /* How we help you */
-.your-needs,
 .your-needs * {
   box-sizing: border-box;
 }
 .your-needs {
-  background: var(--color-bg-02, #151515);
+  background:  #151515;
   padding: 100px 120px 100px 120px;
   display: flex;
   flex-direction: column;
   gap: 64px;
   align-items: center;
   justify-content: flex-start;
-  flex-shrink: 0;
+ 
   position: relative;
 }
 
-/* renamed */
 .needs-tag-title {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   align-self: stretch;
-  flex-shrink: 0;
   height: 238px;
   position: relative;
 }
@@ -1672,7 +1634,7 @@ body{
 .needs-image-7 {
   border-radius: 8px;
   border-style: solid;
-  border-color: var(--color-stroke-02, #ececec);
+  border-color: #ececec;
   border-width: 1px;
   width: 64px;
   height: 30px;
@@ -1681,7 +1643,6 @@ body{
 
 .needs-get-started {
   text-align: left;
-  font-family: "Oswald-Regular", sans-serif;
   font-size: 16px;
   line-height: 26px;
 }
@@ -1717,7 +1678,7 @@ body{
 }
 
 .needs-card {
-  background: var(--color-bg-03, #232323);
+  background:  #232323;
   border-radius: 16px;
   padding: 24px;
   width: 384px;
@@ -1727,13 +1688,13 @@ body{
 }
 
 .needs-card-title {
-  color: var(--color-primary-primary, #ffa500);
+  color:  #ffa500;
   font-size: 18px;
 }
 
 .needs-line-8 {
   border-style: solid;
-  border-color: var(--color-primary-primary, #ffa500);
+  border-color: #ffa500;
   border-width: 3px 0 0 0;
   opacity: 0.2;
   width: 48px;
@@ -1749,10 +1710,10 @@ body{
 
 /* button */
 .needs-button {
-  background: var(--color-primary-primary, #ffa500);
+  background: #ffa500;
   border-radius: 39px;
   border-style: solid;
-  border-color: var(--color-stroke-02, #ececec);
+  border-color:  #ececec;
   border-width: 0px 3px 3px 0px;
   padding: 16px 32px;
   display: flex;
@@ -1767,7 +1728,7 @@ body{
 
 /* calender */
 .contact-us {
-  background: var(--color-bg-01, #ffffff);
+  background: #ffffff;
   padding: 100px 120px 100px 120px;
   display: flex;
   flex-direction: column;
@@ -1787,15 +1748,13 @@ body{
   box-sizing: border-box;
 }
 .footer {
-  background: var(--color-bg-02, #151515);
+  background:  #151515;
   padding: 100px 72px 40px 72px;
   display: flex;
   flex-direction: column;
   gap: 100px;
   align-items: center;
   justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
   overflow: hidden;
 }
 .contents {
@@ -1804,7 +1763,6 @@ body{
   gap: 40px;
   align-items: center;
   justify-content: flex-start;
-  flex-shrink: 0;
   width: 1200px;
   position: relative;
 }
@@ -1814,12 +1772,10 @@ body{
   align-items: flex-start;
   justify-content: space-between;
   align-self: stretch;
-  flex-shrink: 0;
   position: relative;
 }
 .footer-frame {
   opacity: 0.7;
-  flex-shrink: 0;
   width: 24px;
   height: 24px;
   position: relative;
@@ -1833,7 +1789,6 @@ body{
   gap: 24px;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-shrink: 0;
   width: 424px;
   position: relative;
 }
@@ -1844,22 +1799,14 @@ body{
   align-items: flex-start;
   justify-content: flex-start;
   align-self: stretch;
-  flex-shrink: 0;
   position: relative;
 }
 
 .phosfluorescently-en {
-  color: var(--color-text-01, #ffffff);
+  color:  #ffffff;
   text-align: left;
-  font-family: var(
-    --text-paragraph-p2-font-family,
-    "Oswald-Regular",
-    sans-serif
-  );
-  font-size: var(--text-paragraph-p2-font-size, 16px);
-  line-height: var(--text-paragraph-p2-line-height, 26px);
-  letter-spacing: var(--text-paragraph-p2-letter-spacing, -0.02em);
-  font-weight: var(--text-paragraph-p2-font-weight, 400);
+  font-size: 16px;
+  font-weight:  400;
   opacity: 0.9;
   position: relative;
   align-self: stretch;
@@ -1870,24 +1817,16 @@ body{
   gap: 48px;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-shrink: 0;
+  
   position: relative;
 }
 
 .text2 {
-  color: var(--color-text-01, #ffffff);
+  color:  #ffffff;
   text-align: left;
-  font-family: var(
-    --text-heading-h6-font-family,
-    "Oswald-SemiBold",
-    sans-serif
-  );
-  font-size: var(--text-heading-h6-font-size, 20px);
-  line-height: var(--text-heading-h6-line-height, 28px);
-  letter-spacing: var(--text-heading-h6-letter-spacing, -0.02em);
-  font-weight: var(--text-heading-h6-font-weight, 600);
-  position: relative;
-  align-self: stretch;
+  font-size: 20px;
+  font-weight: 600;
+
 }
 .footer-link {
   display: flex;
@@ -1895,32 +1834,22 @@ body{
   gap: 16px;
   align-items: flex-start;
   justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
 }
 .footer-link2 {
-  color: var(--color-text-01, #ffffff);
+  color:  #ffffff;
   text-align: left;
-  font-size: var(--text-paragraph-p2-font-size, 16px);
+  font-size: 16px;
   text-decoration: underline;
   opacity: 0.7;
 }
 .link3 {
-  color: var(--color-text-01, #ffffff);
+  color:  #ffffff;
   text-align: left;
-  font-family: var(
-    --text-paragraph-p2-font-family,
-    "Oswald-Regular",
-    sans-serif
-  );
-  font-size: var(--text-paragraph-p2-font-size, 16px);
-  line-height: var(--text-paragraph-p2-line-height, 26px);
-  letter-spacing: var(--text-paragraph-p2-letter-spacing, -0.02em);
-  font-weight: var(--text-paragraph-p2-font-weight, 400);
+  font-size:  16px;
+  line-height:  26px;
+  letter-spacing:  -0.02em;
+  font-weight: 400;
   opacity: 0.7;
-  position: relative;
-  align-self: stretch;
 }
 .text3 {
   display: flex;
@@ -1928,8 +1857,6 @@ body{
   gap: 24px;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
 }
 .footer-icon-text {
   display: flex;
@@ -1937,8 +1864,6 @@ body{
   gap: 16px;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
 }
 .icon-text2 {
   display: flex;
@@ -1946,25 +1871,20 @@ body{
   gap: 8px;
   align-items: center;
   justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
 }
 .frame {
   opacity: 0.7;
-  flex-shrink: 0;
   width: 24px;
   height: 24px;
-  position: relative;
   overflow: visible;
   aspect-ratio: 1;
 }
 .link4 {
-  color: var(--color-text-01, #ffffff);
+  color:  #ffffff;
   text-align: left;
-  font-size: var(--text-paragraph-p2-font-size, 16px);
-  line-height: var(--text-paragraph-p2-line-height, 26px);
-  letter-spacing: var(--text-paragraph-p2-letter-spacing, -0.02em);
-  font-weight: var(--text-paragraph-p2-font-weight, 400);
+  font-size: 16px;
+  line-height:26px;
+  font-weight: 400;
   opacity: 0.7;
   position: relative;
 }
@@ -1975,17 +1895,17 @@ body{
   align-items: flex-start;
   justify-content: flex-start;
   align-self: stretch;
-  flex-shrink: 0;
+  
   position: relative;
 }
 .line {
   margin-top: -1px;
   border-style: solid;
-  border-color: var(--color-stroke-02, #ececec);
+  border-color:  #ececec;
   border-width: 1px 0 0 0;
   opacity: 0.1;
   align-self: stretch;
-  flex-shrink: 0;
+  
   height: 0px;
   position: relative;
   transform-origin: 0 0;
@@ -1997,21 +1917,16 @@ body{
   align-items: center;
   justify-content: space-between;
   align-self: stretch;
-  flex-shrink: 0;
+  
   position: relative;
 }
 .text4 {
   color: var(--color-text-01, #ffffff);
   text-align: center;
-  font-family: var(
-    --text-paragraph-p2-font-family,
-    "Oswald-Regular",
-    sans-serif
-  );
-  font-size: var(--text-paragraph-p2-font-size, 16px);
-  line-height: var(--text-paragraph-p2-line-height, 26px);
-  letter-spacing: var(--text-paragraph-p2-letter-spacing, -0.02em);
-  font-weight: var(--text-paragraph-p2-font-weight, 400);
+  font-size:  16px;
+  line-height: 26px;
+  letter-spacing:  -0.02em;
+  font-weight:  400;
   opacity: 0.7;
   position: relative;
 }
@@ -2021,17 +1936,11 @@ body{
   gap: 64px;
   align-items: center;
   justify-content: flex-start;
-  flex-shrink: 0;
   position: relative;
 }
 .link7 {
   color: var(--color-text-01, #ffffff);
   text-align: center;
-  font-family: var(
-    --text-paragraph-p2-font-family,
-    "Oswald-Regular",
-    sans-serif
-  );
   font-size: var(--text-paragraph-p2-font-size, 16px);
   line-height: var(--text-paragraph-p2-line-height, 26px);
   letter-spacing: var(--text-paragraph-p2-letter-spacing, -0.02em);
