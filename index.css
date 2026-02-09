@@ -1765,11 +1765,6 @@ body{
   font-weight: 500;
 }
 
-
-
-
-
-
 /* calender */
 .contact-us {
   background: var(--color-bg-01, #ffffff);
@@ -1784,3 +1779,263 @@ body{
 
 
 
+
+
+
+/* footer */
+.footer * {
+  box-sizing: border-box;
+}
+.footer {
+  background: var(--color-bg-02, #151515);
+  padding: 100px 72px 40px 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.contents {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1200px;
+  position: relative;
+}
+.text-link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.footer-frame {
+  opacity: 0.7;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 424px;
+  position: relative;
+}
+.logo-title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.phosfluorescently-en {
+  color: var(--color-text-01, #ffffff);
+  text-align: left;
+  font-family: var(
+    --text-paragraph-p2-font-family,
+    "Oswald-Regular",
+    sans-serif
+  );
+  font-size: var(--text-paragraph-p2-font-size, 16px);
+  line-height: var(--text-paragraph-p2-line-height, 26px);
+  letter-spacing: var(--text-paragraph-p2-letter-spacing, -0.02em);
+  font-weight: var(--text-paragraph-p2-font-weight, 400);
+  opacity: 0.9;
+  position: relative;
+  align-self: stretch;
+}
+.text-link2 {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.text2 {
+  color: var(--color-text-01, #ffffff);
+  text-align: left;
+  font-family: var(
+    --text-heading-h6-font-family,
+    "Oswald-SemiBold",
+    sans-serif
+  );
+  font-size: var(--text-heading-h6-font-size, 20px);
+  line-height: var(--text-heading-h6-line-height, 28px);
+  letter-spacing: var(--text-heading-h6-letter-spacing, -0.02em);
+  font-weight: var(--text-heading-h6-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.footer-link2 {
+  color: var(--color-text-01, #ffffff);
+  text-align: left;
+  font-size: var(--text-paragraph-p2-font-size, 16px);
+  text-decoration: underline;
+  opacity: 0.7;
+}
+.link3 {
+  color: var(--color-text-01, #ffffff);
+  text-align: left;
+  font-family: var(
+    --text-paragraph-p2-font-family,
+    "Oswald-Regular",
+    sans-serif
+  );
+  font-size: var(--text-paragraph-p2-font-size, 16px);
+  line-height: var(--text-paragraph-p2-line-height, 26px);
+  letter-spacing: var(--text-paragraph-p2-letter-spacing, -0.02em);
+  font-weight: var(--text-paragraph-p2-font-weight, 400);
+  opacity: 0.7;
+  position: relative;
+  align-self: stretch;
+}
+.text3 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.footer-icon-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-text2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame {
+  opacity: 0.7;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.link4 {
+  color: var(--color-text-01, #ffffff);
+  text-align: left;
+  font-size: var(--text-paragraph-p2-font-size, 16px);
+  line-height: var(--text-paragraph-p2-line-height, 26px);
+  letter-spacing: var(--text-paragraph-p2-letter-spacing, -0.02em);
+  font-weight: var(--text-paragraph-p2-font-weight, 400);
+  opacity: 0.7;
+  position: relative;
+}
+.content2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.line {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: var(--color-stroke-02, #ececec);
+  border-width: 1px 0 0 0;
+  opacity: 0.1;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 0px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(-180deg) scale(1, 1);
+}
+.link5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.text4 {
+  color: var(--color-text-01, #ffffff);
+  text-align: center;
+  font-family: var(
+    --text-paragraph-p2-font-family,
+    "Oswald-Regular",
+    sans-serif
+  );
+  font-size: var(--text-paragraph-p2-font-size, 16px);
+  line-height: var(--text-paragraph-p2-line-height, 26px);
+  letter-spacing: var(--text-paragraph-p2-letter-spacing, -0.02em);
+  font-weight: var(--text-paragraph-p2-font-weight, 400);
+  opacity: 0.7;
+  position: relative;
+}
+.link6 {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.link7 {
+  color: var(--color-text-01, #ffffff);
+  text-align: center;
+  font-family: var(
+    --text-paragraph-p2-font-family,
+    "Oswald-Regular",
+    sans-serif
+  );
+  font-size: var(--text-paragraph-p2-font-size, 16px);
+  line-height: var(--text-paragraph-p2-line-height, 26px);
+  letter-spacing: var(--text-paragraph-p2-letter-spacing, -0.02em);
+  font-weight: var(--text-paragraph-p2-font-weight, 400);
+  opacity: 0.7;
+  position: relative;
+}
