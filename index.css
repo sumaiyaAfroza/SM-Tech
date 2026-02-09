@@ -3,40 +3,29 @@
   padding:0;
   box-sizing:border-box;
 }
-
 .container{
   width:1200px;
   margin:auto;
 }
-
-
 body{
   margin:0;
   font-family: "Oswald", sans-serif;
   background:#fff;
 }
-
-
 .hero{
   width:100%;
   max-width:1440px;
   margin:0 auto;
 }
-
-
 .navigation-bar{
   width:100%;
   max-width:1200px;
   margin:0 auto;
   padding:24px 0;
 }
-
-
 .link{
   margin-left:auto;
 }
-
-
 .content{
   margin-top:40px;
 }
@@ -50,41 +39,6 @@ body{
   box-shadow:0 6px 0 #000;
 }
 
-
-@media(max-width:1024px){
-  .navigation-bar{
-    padding:24px 40px;
-  }
-
-  .hero{
-    padding:0 40px 120px 40px;
-  }
-
-  .turn-your-amazon-struggles-into-success-save-time-maximize-profits{
-    font-size:48px;
-    line-height:56px;
-  }
-
-
-}
-
-@media(max-width:600px){
-  .navigation-bar{
-    flex-direction:column;
-    gap:20px;
-  }
-
-  .link{
-    gap:20px;
-  }
-
-  .turn-your-amazon-struggles-into-success-save-time-maximize-profits{
-    font-size:34px;
-    line-height:40px;
-  }
-}
-
-/* ================ */
 
 .hero {
   background: linear-gradient(
@@ -135,8 +89,6 @@ body{
   justify-content: flex-start;
   position: relative;
 }
-
-
 .get-started {
   color:  #ffa500;
   text-align: left;
@@ -145,7 +97,6 @@ body{
   color: #4f4d4d;
   text-align: left;
 }
-
 .button {
   background: #ffa500;
   border-radius: 40px;
@@ -164,7 +115,6 @@ body{
   color:#ffffff;
   text-align: center;
 }
-
 .content {
   display: flex;
   flex-direction: column;
@@ -822,7 +772,7 @@ body{
   font-weight:500;
 }
 
-/* right graphic */
+
 .why-graphic{
   width:560px;
   height:470px;
@@ -851,7 +801,7 @@ body{
   transform:translateY(-50%);
 }
 
-/* points */
+
 .why-point{
   background:#232323;
   border-radius:16px;
@@ -873,7 +823,7 @@ body{
 .why-p3{ left:292px; top:27px; }
 .why-p4{ left:292px; top:339px; }
 
-/* logo */
+
 .why-main-logo{
   width:280px;
   height:280px;
@@ -893,11 +843,7 @@ body{
   width:160px;
 }
 
-
-
-
 /* service section css */
-.services,
 .services * {
   box-sizing: border-box;
 }
@@ -1168,8 +1114,6 @@ body{
   aspect-ratio: 1;
 }
 
-
-
 /* our approach er css */
 .our-approach * {
   box-sizing: border-box;
@@ -1361,9 +1305,6 @@ body{
   text-align: center;
 }
 
-
-
-
 /* =======================growth business */
 
 .help-amazon * {
@@ -1445,7 +1386,6 @@ body{
   color: #ffa500;
 }
 
-
 .help-body-text {
   color: #151515;
   text-align: center;
@@ -1461,8 +1401,6 @@ body{
   gap: 24px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
-
- 
 }
 
 .help-card2 {
@@ -1528,8 +1466,6 @@ body{
   gap: 8px;
   align-items: center;
   justify-content: center;
- 
- 
 }
 
 .help-get-started2 {
@@ -1539,14 +1475,6 @@ body{
   font-weight:  500;
   position: relative;
 }
-
-
-
-
-
-
-
-
 
 
 /* How we help you */
@@ -1887,4 +1815,411 @@ body{
   font-weight: 400;
   opacity: 0.7;
   position: relative;
+}
+
+
+@media(max-width:1024px){
+  /* Hero Section */
+  .navigation-bar{
+    padding:24px 40px;
+    width: 100%;
+  }
+  .hero{
+    padding:0 40px 120px 40px;
+    gap: 80px;
+  }
+  .content{
+    width: 100%;
+    max-width: 700px;
+  }
+  .banner-title{
+    font-size:48px;
+    line-height:56px;
+  }
+  
+  .total-incomes-container,
+  .review-container{
+    display: none;
+  }
+  
+  /* Social */
+  .social-proof{
+    padding: 60px 40px;
+  }
+  .social-proof2{
+    max-width: 100%;
+  }
+  .partners, .active-user, .revenue, .investment{
+    min-width: calc(50% - 12px);
+  }
+  
+  /* Story  */
+  .story-section{
+    padding: 40px 40px 80px;
+  }
+  .story-badge-text{
+    width: 100%;
+    max-width: 600px;
+  }
+  .story-desc{
+    width: 100%;
+  }
+  
+  /* Why Choose  */
+  .why-choose-us{
+    padding: 80px 40px;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .why-content{
+    width: 100%;
+  }
+  .why-heading{
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .why-btn{
+    width: 100%;
+    max-width: 300px;
+  }
+  .why-graphic{
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+  }
+  
+  /* Services */
+  .services{
+    padding: 80px 40px;
+  }
+  .card{
+    width: 100%;
+    justify-content: center;
+  }
+  .card2{
+    width: 100%;
+    max-width: 550px;
+  }
+  .heading{
+    font-size: 42px;
+    line-height: 50px;
+  }
+  
+  /* Our Approach */
+  .our-approach{
+    padding: 80px 40px;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .image-container{
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+  .image{
+    left: 40px;
+    top: 0;
+    width: 220px;
+    height: 360px;
+  }
+  .image2{
+    left: auto;
+    right: 40px;
+    top: 80px;
+    width: 220px;
+    height: 320px;
+  }
+  .text-container{
+    width: 100%;
+  }
+  .text-button{
+    width: 100%;
+  }
+  .hading{
+    font-size: 42px;
+    line-height: 50px;
+  }
+  
+  /* Help Amazon */
+  .help-amazon{
+    padding: 80px 40px;
+  }
+  .help-card{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .help-card2{
+    width: 100%;
+  }
+  .help-heading{
+    font-size: 42px;
+    line-height: 50px;
+  }
+  
+ 
+  .your-needs{
+    padding: 80px 40px;
+  }
+  .needs-card-wrap{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .needs-card{
+    width: 100%;
+  }
+  .needs-heading{
+    font-size: 42px;
+    line-height: 50px;
+  }
+  
+  /* Contact Us */
+  .contact-us{
+    padding: 80px 40px;
+  }
+  .screenshot-9-1{
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Footer */
+  .footer{
+    padding: 80px 40px 40px;
+  }
+  .contents{
+    width: 100%;
+  }
+  .text-link{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .left{
+    width: 100%;
+  }
+  .text-link2{
+    width: 100%;
+    gap: 32px;
+  }
+}
+
+
+@media(max-width:768px){
+  /* Hero Section */
+  .hero{
+    padding: 0 24px 80px;
+    gap: 60px;
+  }
+  .navigation-bar{
+    padding: 20px 24px;
+  }
+  .banner-title{
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .button, .button2{
+    padding: 12px 24px;
+  }
+  .get-started3, .get-started5{
+    font-size: 14px;
+  }
+  
+  /* Social  */
+  .social-proof{
+    padding: 40px 24px;
+  }
+  .amazon-market-statistics-worldwide-2024{
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .partners, .active-user, .revenue, .investment{
+    min-width: 100%;
+    height: auto;
+    padding: 24px 16px;
+  }
+  .statistic{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .label{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  /* Story Section */
+  .story-section{
+    padding: 40px 24px 60px;
+  }
+  .story-title{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .story-desc{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .story-btn{
+    padding: 14px 28px;
+  }
+  
+  /* Why Choose Us */
+  .why-choose-us{
+    padding: 60px 24px;
+  }
+  .why-heading{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .why-body{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .why-btn{
+    max-width: 100%;
+  }
+  .why-graphic{
+    height: 350px;
+  }
+  
+  /* Services */
+  .services{
+    padding: 60px 24px;
+  }
+  .heading{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .body-text{
+    font-size: 16px;
+  }
+  .card2{
+    padding: 24px;
+  }
+  
+  /* Our Approach */
+  .our-approach{
+    padding: 60px 24px;
+  }
+  .image-container{
+    height: 350px;
+  }
+  .image{
+    left: 24px;
+    width: 180px;
+    height: 300px;
+  }
+  .image2{
+    right: 24px;
+    width: 180px;
+    height: 270px;
+  }
+  .hading{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .description{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+
+  .help-amazon{
+    padding: 60px 24px;
+  }
+  .help-card{
+    grid-template-columns: 1fr;
+  }
+  .help-heading{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .help-body-text{
+    font-size: 16px;
+  }
+  
+ 
+  .your-needs{
+    padding: 60px 24px;
+  }
+  .needs-card-wrap{
+    grid-template-columns: 1fr;
+  }
+  .needs-heading{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .needs-body-text{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+ 
+  .contact-us{
+    padding: 60px 24px;
+  }
+
+  .footer{
+    padding: 60px 24px 32px;
+    gap: 60px;
+  }
+  .text-link2{
+    flex-direction: column;
+    gap: 24px;
+  }
+  .link5{
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+  }
+  .link6{
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+}
+
+@media(max-width:600px){
+ 
+  .navigation-bar{
+    flex-direction:column;
+    gap:20px;
+  }
+  .link{
+    width: 100%;
+    justify-content: center;
+  }
+  .link2{
+    gap:20px;
+  }
+  
+ 
+  .banner-title{
+    font-size:28px;
+    line-height:36px;
+  }
+  .get-started4{
+    font-size: 14px;
+  }
+  
+ 
+  .story-title{
+    font-size: 26px;
+    line-height: 34px;
+  }
+  
+ 
+  .heading,
+  .help-heading,
+  .needs-heading,
+  .why-heading,
+  .hading{
+    font-size: 26px;
+    line-height: 34px;
+  }
+  
+ 
+  .why-graphic{
+    height: 300px;
+  }
+  
+
+  .button, .button2, .story-btn, .why-btn, .help-button, .needs-button{
+    width: 100%;
+  }
 }
