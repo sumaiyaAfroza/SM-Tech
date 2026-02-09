@@ -740,159 +740,164 @@ body{
   font-weight:500;
 }
 
-/* why choose */
+
+/*  */
+/* ===== WHY CHOOSE SECTION (UNIQUE) ===== */
+
 .why-choose-us,
 .why-choose-us * {
   box-sizing: border-box;
 }
+
 .why-choose-us {
-  background: var(--color-bg-02, #151515);
-  padding: 100px 120px 100px 120px;
-  display: flex;
-  flex-direction: row;
-  gap: 80px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.content {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 560px;
-  position: relative;
-}
-.tag-title {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.badge {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.image-6 {
-  border-radius: 8px;
-  border-style: solid;
-  border-color: var(--color-stroke-02, #ececec);
-  border-width: 1px;
-  flex-shrink: 0;
-  width: 64px;
-  height: 30px;
-  position: relative;
-  object-fit: cover;
-  aspect-ratio: 64/30;
-}
-.get-started {
-  text-align: left;
-  font-family: var(
-    --text-paragraph-p2-font-family,
-    "Oswald-Regular",
-    sans-serif
-  );
-  font-size: var(--text-paragraph-p2-font-size, 16px);
-  line-height: var(--text-paragraph-p2-line-height, 26px);
-  letter-spacing: var(--text-paragraph-p2-letter-spacing, -0.02em);
-  font-weight: var(--text-paragraph-p2-font-weight, 400);
-  position: relative;
-}
-.get-started-span {
-  color: var(--color-text-01, #ffffff);
-}
-.get-started-span2 {
-  color: var(--color-primary-primary, #ffa500);
-}
-.text {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 560px;
-  position: relative;
-}
-.heading {
-  text-align: left;
-  font-family: var(
-    --text-heading-h2-font-family,
-    "Oswald-SemiBold",
-    sans-serif
-  );
-  font-size: var(--text-heading-h2-font-size, 56px);
-  line-height: var(--text-heading-h2-line-height, 64px);
-  letter-spacing: var(--text-heading-h2-letter-spacing, -0.02em);
-  font-weight: var(--text-heading-h2-font-weight, 600);
-  position: relative;
-  align-self: stretch;
-}
-.heading-span {
-  color: var(--color-text-01, #ffffff);
-}
-.heading-span2 {
-  color: var(--color-primary-primary, #ffa500);
-}
-.body-text {
-  color: var(--color-text-01, #ffffff);
-  text-align: left;
-  font-family: var(
-    --text-paragraph-p1-font-family,
-    "Oswald-Regular",
-    sans-serif
-  );
-  font-size: var(--text-paragraph-p1-font-size, 18px);
-  line-height: var(--text-paragraph-p1-line-height, 28px);
-  letter-spacing: var(--text-paragraph-p1-letter-spacing, -0.02em);
-  font-weight: var(--text-paragraph-p1-font-weight, 400);
-  opacity: 0.9;
-  position: relative;
-  align-self: stretch;
-}
-.button {
-  background: var(--color-primary-primary, #ffa500);
-  border-radius: 39px;
-  border-style: solid;
-  border-color: var(--color-stroke-02, #ececec);
-  border-width: 0px 3px 3px 0px;
-  padding: 16px 32px 16px 32px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-}
-.get-started2 {
-  color: var(--color-text-01, #ffffff);
-  text-align: center;
-  position: relative;
+  background:#151515;
+  padding:100px 120px;
+  display:flex;
+  gap:80px;
+  align-items:center;
 }
 
-.group-2085664388 {
-  position: absolute;
-  inset: 0;
+/* left */
+.why-content{
+  display:flex;
+  flex-direction:column;
+  gap:40px;
+  width:560px;
 }
 
-.exclusive-partnerships {
-  color: var(--color-text-01, #ffffff);
-  text-align: left;
-  position: relative;
-  transform-origin: 0 0;
-  transform: rotate(0deg) scale(1, 1);
+.why-tag-title{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
 }
 
+.why-badge{
+  display:flex;
+  gap:8px;
+  align-items:center;
+}
+
+.why-badge-img{
+  width:64px;
+  height:30px;
+  border:1px solid #ececec;
+  border-radius:8px;
+}
+
+.why-badge-text{
+  font-size:16px;
+}
+
+.why-badge-white{ color:#fff; }
+.why-badge-orange{ color:#ffa500; }
+
+.why-text{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+
+.why-heading{
+  font-size:56px;
+  line-height:64px;
+  font-weight:600;
+}
+
+.why-heading-white{ color:#fff; }
+.why-heading-orange{ color:#ffa500; }
+
+.why-body{
+  color:#fff;
+  opacity:.9;
+  font-size:18px;
+  line-height:28px;
+}
+
+/* button */
+.why-btn{
+  background:#ffa500;
+  border-radius:39px;
+  border-width:0 3px 3px 0;
+  border-style:solid;
+  border-color:#ececec;
+  padding:16px 32px;
+  display:flex;
+  justify-content:center;
+}
+
+.why-btn-text{
+  color:#fff;
+  font-size:16px;
+  font-weight:500;
+}
+
+/* right graphic */
+.why-graphic{
+  width:560px;
+  height:470px;
+  position:relative;
+}
+
+.why-circle1{
+  background:rgba(255,165,0,.06);
+  width:600px;
+  height:520px;
+  border-radius:50%;
+  position:absolute;
+  left:-173px;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.why-circle2{
+  background:rgba(255,255,255,.2);
+  width:600px;
+  height:520px;
+  border-radius:50%;
+  position:absolute;
+  left:-173px;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+/* points */
+.why-point{
+  background:#232323;
+  border-radius:16px;
+  padding:16px 20px;
+  display:flex;
+  gap:12px;
+  align-items:center;
+  position:absolute;
+  color:#fff;
+}
+
+.why-point img{
+  width:40px;
+  height:40px;
+}
+
+.why-p1{ left:325px; top:131px; }
+.why-p2{ left:325px; top:235px; }
+.why-p3{ left:292px; top:27px; }
+.why-p4{ left:292px; top:339px; }
+
+/* logo */
+.why-main-logo{
+  width:280px;
+  height:280px;
+  border-radius:50%;
+  border-bottom:8px solid #ffa500;
+  background:#232323;
+  position:absolute;
+  left:9px;
+  top:50%;
+  transform:translateY(-50%);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.why-main-logo img{
+  width:160px;
+}
