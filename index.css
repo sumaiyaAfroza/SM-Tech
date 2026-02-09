@@ -1765,3 +1765,22 @@ body{
   font-weight: 500;
 }
 
+
+
+
+
+
+/* calender */
+.contact-us {
+  background: var(--color-bg-01, #ffffff);
+  padding: 100px 120px 100px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+
+
